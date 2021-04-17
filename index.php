@@ -27,11 +27,12 @@ error_reporting(E_ALL);
 echo "<h1>PHP Array Practice.</h1>";
 
 $number=array(7,9,8,9,8,8,6);
-//include("includes/functions.php");
+include("includes/functions.php");
 
-//printArr($number);
-//echo "<br>";
-//largest($number);
-//echo "<br>";
+printArr($number);
+echo "<br>";
+largest($number);
+echo "<br>";
+removeDups($number);
 
 ?>
